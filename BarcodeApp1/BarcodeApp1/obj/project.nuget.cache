@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "BOaE5J6KQbY=",
+  "success": true,
+  "projectFilePath": "c:\\Users\\90537\\Desktop\\BarcodeApp1\\BarcodeApp1\\BarcodeApp1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\90537\\.nuget\\packages\\microsoft.win32.systemevents\\8.0.0\\microsoft.win32.systemevents.8.0.0.nupkg.sha512",
+    "C:\\Users\\90537\\.nuget\\packages\\qrcoder\\1.6.0\\qrcoder.1.6.0.nupkg.sha512",
+    "C:\\Users\\90537\\.nuget\\packages\\sixlabors.fonts\\2.0.4\\sixlabors.fonts.2.0.4.nupkg.sha512",
+    "C:\\Users\\90537\\.nuget\\packages\\sixlabors.imagesharp\\3.1.5\\sixlabors.imagesharp.3.1.5.nupkg.sha512",
+    "C:\\Users\\90537\\.nuget\\packages\\sixlabors.imagesharp.drawing\\2.1.4\\sixlabors.imagesharp.drawing.2.1.4.nupkg.sha512",
+    "C:\\Users\\90537\\.nuget\\packages\\system.drawing.common\\8.0.8\\system.drawing.common.8.0.8.nupkg.sha512",
+    "C:\\Users\\90537\\.nuget\\packages\\zxing.net\\0.16.9\\zxing.net.0.16.9.nupkg.sha512"
+  ],
+  "logs": []
+}
