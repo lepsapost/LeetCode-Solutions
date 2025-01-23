@@ -24,11 +24,3 @@ In this problem, you are tasked with finding the names of countries with an area
 - Return the name and area of the countries where the area is greater than 3 million square kilometers.
 - You may return the result in any order.
 
-### SQL Query
-
-To solve this problem, you can use the following SQL query:
-
-```sql
-SELECT name, area
-FROM World
-WHERE area > 3000000;
