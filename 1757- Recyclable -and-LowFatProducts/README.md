@@ -1,19 +1,19 @@
-   # 101. Symmetric Tree
+# LeetCode 1757 - Recyclable and Low Fat Products
 
-   ## Problem Description
-   Given the root of a binary tree, check whether it is a mirror of itself (i.e., symmetric around its center).
+## Problem Description
 
-   ## Example
-   Input: root = [1,2,2,3,4,4,3]
-   Output: true
+You are given a table called `products`, with the following columns:
+- `product`: The name of the product.
+- `recyclable`: A flag indicating whether the product is recyclable (1 for recyclable, 0 for not recyclable).
+- `low_fat`: A flag indicating whether the product is low fat (1 for low fat, 0 for not low fat).
 
-   ## Constraints
-   - The number of nodes in the tree is in the range [1, 1000].
-   - -100 <= Node.val <= 100
+Write an SQL query to find all the products that are both recyclable and low fat.
 
-   ## Approach
-   We use a recursive approach to check if the left and right subtrees are mirrors of each other. We define a helper function `IsMirror` that takes two nodes as input and checks if they are symmetric.
+## Solution
 
-   ## Complexity
-   - Time complexity: O(n), where n is the number of nodes in the tree.
-   - Space complexity: O(h) in the worst case, where h is the height of the tree (due to the recursive call stack).
+The solution is an SQL query that selects all the products from the `products` table where both the `recyclable` and `low_fat` columns are equal to 1.
+
+```sql
+SELECT product
+FROM products
+WHERE recyclable = 1 AND low_fat = 1;
